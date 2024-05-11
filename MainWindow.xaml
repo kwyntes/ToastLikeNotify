@@ -1,0 +1,15 @@
+﻿<Window x:Class="ToastLikeNotify.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToastLikeNotify"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStyle="None" AllowsTransparency="True" Background="Transparent" SizeToContent="WidthAndHeight" Topmost="True" Loaded="OnLoaded" ShowInTaskbar="False">
+    <Border CornerRadius="10" BorderThickness="1" BorderBrush="#333">
+        <Border.Background>
+            <SolidColorBrush Color="Black" Opacity="0.5" />
+        </Border.Background>
+        <TextBlock Name="textBlock" Opacity="1" Foreground="White" FontSize="24" Padding="30 15" Margin="0" />
+    </Border>
+</Window>
